@@ -22,7 +22,7 @@ public class ServiceController {
         RestfulResult restfulResult = new RestfulResult();
 
         try {
-            restfulResult.setData("Service1:Welcome " + serviceInfo.getName() + "!");
+            restfulResult.setData("Service1:Welcome " + serviceInfo.getName() + "!~");
 
         } catch (Exception e) {
             e.printStackTrace();
